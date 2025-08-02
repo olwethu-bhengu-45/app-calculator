@@ -1,31 +1,53 @@
+body {
+  background-color: #c4ccd5;
+}
 table {
-  color: #fff;
+  color: #a2acb7;
   text-align: center;
   border-collapse: collapse;
   font: normal 3em Arial, Helvetica, sans-serif;
+  max-width: 420px;
+  width: 90vw;
+  margin: 0 auto;
+  background-color: #2d3e50;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 tr {
-  height: 16.02vh;
-  background-color: #4e494d;
+  height: 15vh;
 }
 td {
-  width: 25vw;
-  border: 1px solid #4e494d;
+  width: 25%;
+  border: none;
+  padding: 0;
 }
 #inputBox {
-  background-color: #f2f4f7;
+  background-color: #2d3e50;
   text-align: right;
   width: 100%;
-  font-size: 2em;
-  color: #020205;
-  border: 0px;
+  font-size: 1.5em;
+  color: pink;
+  border: 1px solid #a2acb7;
+  border-radius: 15px;
+  padding: 0.5em;
+  box-sizing: border-box;
+  overflow-x: auto;
 }
 .digitButton {
-  background-color: #111f4d;
+  border: none;
+  background-color: #2d3e50;
 }
 .operatorButton {
-  background-color: #e43a19;
+  border: none;
+  border-radius: 40px;
+  background-color: #37495f;
 }
 .acButton {
-  background-color: #020205;
+  border: none;
+  background-color: #2d3e50;
+}
+#equals {
+  background-color: pink;
+  color: #2d3e50;
 }
